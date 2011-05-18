@@ -10,7 +10,6 @@ module XSD
 
 
 module Charset
-  @internal_encoding = $KCODE
 
   class XSDError < StandardError; end
   class CharsetError < XSDError; end

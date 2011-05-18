@@ -48,7 +48,6 @@ module SOAPType
   attr_accessor :position
   attr_reader :extraattr
   attr_accessor :definedtype
-  attr_accessor :force_typed
 
   def initialize(*arg)
     super
@@ -61,7 +60,6 @@ module SOAPType
     @position = nil
     @definedtype = nil
     @extraattr = {}
-    @force_typed = false
   end
 
   def inspect
